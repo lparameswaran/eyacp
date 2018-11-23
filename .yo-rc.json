@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ey.acp"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "acp",
+    "packageName": "com.ey.acp",
+    "packageFolder": "com/ey/acp",
+    "serverPort": "9080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YTY0NTBjNjA4NTZiNTkxNDU0YWQyYWVlNDM2NmYyMzg1ODdlZWEzNmNlZDI2ZTQxNTYxZjhhY2NmYTU5ZjNkNWE5NWU0NzE2N2UyMTYwODA3Yzk3OTcwNmRhMmZhMDc5MDIwMmZhZmZhNDc4NzQ2Y2YwMDQwOTk0NDgxZTM0OWY=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
